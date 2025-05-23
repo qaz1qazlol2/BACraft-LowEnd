@@ -1,4 +1,4 @@
-# BlueArchivesCraftModpack
+# BlueArchivesCraftModpackRemake-Lowend
 # 想体验最新测试版本请安装git后输入 
 # git clone --recursive https://bgithub.xyz/qaz1qazlol2/BlueArchivesCraftModpackRemake-LowEnd.git
 # Win10及以上（非精简版）使用 winget install Git.Git 来安装git
