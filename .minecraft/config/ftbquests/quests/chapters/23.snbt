@@ -67,24 +67,6 @@
 		}
 		{
 			dependencies: ["0E60F4A2D051CF49"]
-			icon: "mokels_boss_mantyd:boss_mantyd_spawn_egg"
-			id: "7AEE48B9B5BF9F90"
-			rewards: [{
-				id: "335C3D3CF838FFF4"
-				item: "enigmaticaddons:earth_promise"
-				type: "item"
-			}]
-			tasks: [{
-				entity: "mokels_boss_mantyd:boss_mantyd"
-				id: "2030FD1BBF5C0341"
-				type: "kill"
-				value: 1L
-			}]
-			x: 4.5d
-			y: -1.5d
-		}
-		{
-			dependencies: ["0E60F4A2D051CF49"]
 			id: "73EE57FECB08616C"
 			rewards: [{
 				id: "2B8126302B0D0AFE"
@@ -317,11 +299,6 @@
 			dependencies: ["7FFD68DA4FF0AE0A"]
 			icon: "born_in_chaos_v1:fallen_chaos_knight_spawn_egg"
 			id: "4BE38DCEE293D229"
-			rewards: [{
-				id: "438AB0DA2BAA30C4"
-				item: "terramity:chaos_heart_ring"
-				type: "item"
-			}]
 			tasks: [{
 				entity: "born_in_chaos_v1:fallen_chaos_knight"
 				icon: "born_in_chaos_v1:fallen_chaos_knight_spawn_egg"
@@ -496,71 +473,6 @@
 		}
 		{
 			dependencies: ["0E60F4A2D051CF49"]
-			id: "283D887B16D86BD3"
-			rewards: [
-				{
-					id: "19E292BA2DA2E1BD"
-					item: {
-						Count: 1
-						id: "cataclysm:ignitium_helmet"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "769944A69EF3F13A"
-					item: {
-						Count: 1
-						id: "cataclysm:ignitium_chestplate"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "399ACC4E1FF32DEF"
-					item: {
-						Count: 1
-						id: "cataclysm:ignitium_leggings"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "3D5C62E6CB4F6F62"
-					item: {
-						Count: 1
-						id: "cataclysm:ignitium_boots"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					count: 10L
-					id: "13987C2BFAEB6BB6"
-					item: { Count: 10, id: "minecraft:blaze_rod" }
-					type: "item"
-				}
-				{
-					id: "7EF05C6D6CB2F7E9"
-					item: "terramity:flameguard_pendant"
-					type: "item"
-				}
-			]
-			x: 9.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["283D887B16D86BD3"]
 			id: "34D652FA1AA6DC0F"
 			rewards: [{
 				id: "0F6F9FD0BC2434A2"
@@ -730,7 +642,7 @@
 			id: "7E73BB2940C1AD18"
 			rewards: [{
 				id: "7A48294BD88DACF5"
-				item: "blue_archivescraft:big_book"
+				item: "blue_archivescraft:mysterious_book"
 				type: "item"
 			}]
 			tasks: [{
@@ -771,11 +683,6 @@
 		{
 			dependencies: ["1CFCD0932E2B2ECA"]
 			id: "7B11A994EA278BDB"
-			rewards: [{
-				id: "01885C81721531A1"
-				item: "terramity:focus_scarf"
-				type: "item"
-			}]
 			tasks: [{
 				entity: "eeeabsmobs:nameless_guardian"
 				icon: "eeeabsmobs:nameless_guardian_egg"
@@ -845,53 +752,6 @@
 			}]
 			x: 1.5d
 			y: -1.5d
-		}
-		{
-			dependencies: ["0E60F4A2D051CF49"]
-			id: "699D0F4F5895859D"
-			rewards: [
-				{
-					id: "2DEE52490FFDBBB4"
-					item: "graveyard:upper_bone_staff"
-					type: "item"
-				}
-				{
-					id: "0A88EF91DC1E0FF7"
-					item: "graveyard:middle_bone_staff"
-					type: "item"
-				}
-				{
-					id: "1F6593DFC9D62308"
-					item: "graveyard:lower_bone_staff"
-					type: "item"
-				}
-			]
-			tasks: [{
-				count: 10L
-				id: "4D9188B7E1B5CAFB"
-				item: { Count: 10, id: "graveyard:dark_iron_ingot" }
-				type: "item"
-			}]
-			x: 9.0d
-			y: 4.5d
-		}
-		{
-			dependencies: ["699D0F4F5895859D"]
-			id: "401B3796654F4214"
-			rewards: [{
-				id: "1B0F1F6E40062FBE"
-				item: "terramity:forbidden_chalice"
-				type: "item"
-			}]
-			tasks: [{
-				entity: "graveyard:lich"
-				icon: "graveyard:lich_spawn_egg"
-				id: "54612667591E3A58"
-				type: "kill"
-				value: 1L
-			}]
-			x: 10.5d
-			y: 4.5d
 		}
 		{
 			dependencies: ["0E60F4A2D051CF49"]
@@ -996,151 +856,6 @@
 		}
 		{
 			dependencies: ["0E60F4A2D051CF49"]
-			id: "6DC18CA44F4C3B25"
-			rewards: [{
-				id: "224D8426879CDF7D"
-				item: "enigmaticlegacy:cursed_scroll"
-				type: "item"
-			}]
-			tasks: [{
-				entity: "mokels_bossfight_saphyra:nameless"
-				icon: "mokels_bossfight_saphyra:nameless_spawn_egg"
-				id: "445C37A9773E5FF8"
-				type: "kill"
-				value: 1L
-			}]
-			x: 3.0d
-			y: -3.0d
-		}
-		{
-			dependencies: ["0E60F4A2D051CF49"]
-			icon: "mokels_bossfight_saphyra:mothboss_spawn_egg"
-			id: "686322A9532920B2"
-			rewards: [{
-				id: "58FF82D8E7D52C71"
-				item: "enigmaticaddons:totem_of_malice"
-				type: "item"
-			}]
-			tasks: [{
-				entity: "mokels_bossfight_saphyra:mothboss"
-				icon: "mokels_bossfight_saphyra:mothboss_spawn_egg"
-				id: "70A6C96095907D23"
-				type: "kill"
-				value: 1L
-			}]
-			x: 4.5d
-			y: -3.0d
-		}
-		{
-			dependencies: ["0E60F4A2D051CF49"]
-			id: "14A8ACA06E7255B3"
-			rewards: [{
-				id: "3B0BF4B34E625D71"
-				item: "enigmaticlegacy:fabulous_scroll"
-				type: "item"
-			}]
-			tasks: [{
-				entity: "threateningly_mobs:saint"
-				icon: "threateningly_mobs:saint_spawn_egg"
-				id: "1171D8C8808C7CB4"
-				type: "kill"
-				value: 1L
-			}]
-			x: 6.0d
-			y: -3.0d
-		}
-		{
-			dependencies: ["0E60F4A2D051CF49"]
-			id: "37D8053F23F561B0"
-			rewards: [{
-				id: "4F9879D2343D46EF"
-				item: "terramity:solar_safeguard_pendant"
-				type: "item"
-			}]
-			tasks: [{
-				entity: "terramity:hellrok"
-				icon: "terramity:hellrok_spawn_egg"
-				id: "6DADC108D4966244"
-				type: "kill"
-				value: 1L
-			}]
-			x: 7.5d
-			y: -3.0d
-		}
-		{
-			dependencies: ["0E60F4A2D051CF49"]
-			id: "2D523AED1C1F696D"
-			rewards: [{
-				id: "7496C438D855F020"
-				item: "terramity:fragile_divinity"
-				type: "item"
-			}]
-			tasks: [{
-				entity: "terramity:virtue"
-				icon: "terramity:virtue_spawn_egg"
-				id: "7F80F891ACC4C510"
-				type: "kill"
-				value: 1L
-			}]
-			x: 9.0d
-			y: -3.0d
-		}
-		{
-			dependencies: ["0E60F4A2D051CF49"]
-			id: "02E72A61FBF797C5"
-			rewards: [{
-				id: "5ADD830FF8D4CFA4"
-				item: "confluence:ankh_charm"
-				type: "item"
-			}]
-			tasks: [{
-				entity: "terramity:gob"
-				icon: "terramity:gob_spawn_egg"
-				id: "31C5F7C1573B268B"
-				type: "kill"
-				value: 1L
-			}]
-			x: 10.5d
-			y: -3.0d
-		}
-		{
-			dependencies: ["0E60F4A2D051CF49"]
-			id: "66FA69E02287FFBB"
-			rewards: [{
-				id: "2E32B140EFAF8334"
-				item: "enigmaticlegacy:berserk_charm"
-				type: "item"
-			}]
-			tasks: [{
-				entity: "terramity:trial_guardian"
-				icon: "terramity:trial_guardian_spawn_egg"
-				id: "12938D06CBCA5136"
-				type: "kill"
-				value: 1L
-			}]
-			x: 12.0d
-			y: -3.0d
-		}
-		{
-			dependencies: ["0E60F4A2D051CF49"]
-			id: "73050BA3FC59D8AD"
-			rewards: [{
-				id: "1519BC2F3629C064"
-				item: "enigmaticaddons:etherium_core"
-				type: "item"
-			}]
-			tasks: [{
-				entity: "terramity:gundalf"
-				icon: "terramity:gundalf_spawn_egg"
-				id: "01D117C11FB425BB"
-				type: "kill"
-				value: 1L
-			}]
-			x: 12.0d
-			y: -1.5d
-		}
-		{
-			dependencies: ["0E60F4A2D051CF49"]
 			id: "326765FDE16A9C61"
 			rewards: [
 				{
@@ -1179,24 +894,17 @@
 			hide_dependent_lines: true
 			id: "0E60F4A2D051CF49"
 			min_required_dependencies: 1
-			rewards: [
-				{
-					id: "030E9716FA7AB1F6"
-					item: "terramity:stygian_safety_talisman"
-					type: "item"
-				}
-				{
-					id: "049F86B5174845E5"
-					item: {
-						Count: 1
-						id: "bountifulbaubles:ankh_shield"
-						tag: {
-							Damage: 0
-						}
+			rewards: [{
+				id: "049F86B5174845E5"
+				item: {
+					Count: 1
+					id: "bountifulbaubles:ankh_shield"
+					tag: {
+						Damage: 0
 					}
-					type: "item"
 				}
-			]
+				type: "item"
+			}]
 			size: 5.0d
 			tasks: [{
 				id: "33955EB8D453C1AE"

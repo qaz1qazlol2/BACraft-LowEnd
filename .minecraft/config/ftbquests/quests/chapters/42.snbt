@@ -302,32 +302,6 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["1DBC4BCE54760A45"]
-			id: "2BB0E78CF413885B"
-			rewards: [{
-				id: "21B32888775F5049"
-				type: "xp_levels"
-				xp_levels: 15
-			}]
-			subtitle: "飞起来"
-			tasks: [{
-				entity: "mutantmonsters:mutant_enderman"
-				icon: {
-					Count: 1
-					id: "mutantmonsters:endersoul_hand"
-					tag: {
-						Damage: 0
-					}
-				}
-				id: "3605973272727816"
-				type: "kill"
-				value: 5L
-			}]
-			title: "黑手！"
-			x: -2.0d
-			y: -4.0d
-		}
-		{
 			dependencies: ["1139920D35883BAC"]
 			id: "5475A38150E1D828"
 			rewards: [

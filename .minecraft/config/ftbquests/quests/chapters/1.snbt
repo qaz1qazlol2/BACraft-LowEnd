@@ -129,7 +129,10 @@
 		}
 		{
 			dependencies: ["0AF406BDE165BB37"]
-			description: ["偶然的一次遭遇，你发现有些怪物身上散发着一些强者的气息，而且相比于一般的怪物他们更难被击杀"]
+			description: [
+				"偶然的一次遭遇，你发现有些怪物身上散发着一些强者的气息，而且相比于一般的怪物他们更难被击杀"
+				"注：低配版不包含突变生物模组，所以该任务无接下来的支线"
+			]
 			id: "7D46801DB95372E8"
 			rewards: [
 				{
@@ -737,136 +740,6 @@
 		}
 		{
 			dependencies: ["7D46801DB95372E8"]
-			id: "75134A35054D0558"
-			rewards: [{
-				count: 40
-				id: "38A117082945B92F"
-				item: "kubejs:gold_coin"
-				type: "item"
-			}]
-			subtitle: "它会复活？"
-			tasks: [{
-				entity: "mutantmonsters:mutant_zombie"
-				icon: "mutantmonsters:mutant_zombie_spawn_egg"
-				id: "6F77E1DFAE4F9E18"
-				type: "kill"
-				value: 1L
-			}]
-			title: "绿色铁傀儡"
-			x: -10.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["7D46801DB95372E8"]
-			id: "3DD4FF17D834769B"
-			rewards: [{
-				count: 40
-				id: "072BDAB82D9BA0ED"
-				item: "kubejs:gold_coin"
-				type: "item"
-			}]
-			subtitle: "百发百中"
-			tasks: [{
-				entity: "mutantmonsters:mutant_skeleton"
-				icon: "mutantmonsters:mutant_skeleton_spawn_egg"
-				id: "3885A37D3DC730AB"
-				type: "kill"
-				value: 1L
-			}]
-			title: "前期之友"
-			x: -11.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["7D46801DB95372E8"]
-			id: "4C0AE1E218FC5D45"
-			rewards: [{
-				count: 40
-				id: "51ED576EE7A08138"
-				item: "kubejs:gold_coin"
-				type: "item"
-			}]
-			subtitle: "BOOM"
-			tasks: [{
-				entity: "mutantmonsters:mutant_creeper"
-				icon: "mutantmonsters:creeper_minion_spawn_egg"
-				id: "11A68EB208CE68E4"
-				type: "kill"
-				value: 1L
-			}]
-			title: "苦力怕坐飞机"
-			x: -12.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["7D46801DB95372E8"]
-			hide_text_until_complete: false
-			id: "4F1F51A6B59852F6"
-			rewards: [{
-				count: 40
-				id: "4717FFB4FFD6905A"
-				item: "kubejs:gold_coin"
-				type: "item"
-			}]
-			subtitle: "快跑"
-			tasks: [{
-				entity: "mutantmonsters:mutant_enderman"
-				icon: "mutantmonsters:mutant_enderman_spawn_egg"
-				id: "2CB448EE05BE4160"
-				type: "kill"
-				value: 1L
-			}]
-			title: "黑手"
-			x: -13.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["7D46801DB95372E8"]
-			dependency_requirement: "one_completed"
-			description: ["使用突变怪物的专属掉落物作为材料对浓稠的药水进行酿造即可获得"]
-			id: "5833652DC1C8A7EC"
-			min_required_dependencies: 2
-			subtitle: "突变药水"
-			tasks: [{
-				id: "599DAB4D2EB6CE8F"
-				item: {
-					Count: 1
-					id: "minecraft:splash_potion"
-					tag: {
-						Potion: "mutantmonsters:chemical_x"
-					}
-				}
-				type: "item"
-			}]
-			title: "“耗子药”"
-			x: -14.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["5833652DC1C8A7EC"]
-			description: ["真有人会把药水交给……？"]
-			id: "3BF8E03198FBD8E5"
-			rewards: [{
-				id: "58D1ABE0E06CFB97"
-				type: "xp"
-				xp: 100
-			}]
-			subtitle: "这也行？"
-			tasks: [{
-				icon: "mutantmonsters:mutant_snow_golem_spawn_egg"
-				id: "606EB78355E43F5F"
-				observe_type: 0
-				timer: 0L
-				title: "看看突变雪傀儡"
-				to_observe: "mutantmonsters:mutant_snow_golem"
-				type: "observation"
-			}]
-			title: "永恒的......伙伴？"
-			x: -14.0d
-			y: 4.5d
-		}
-		{
-			dependencies: ["7D46801DB95372E8"]
 			description: [
 				"在佩戴&c七咒之戒&f的情况下，如果没有强力的&6附魔、枪械或强力学生BUFF&f时，想要击杀突变骷髅和突变末影人是非常困难的。"
 				" "
@@ -1363,84 +1236,6 @@
 			y: -5.0d
 		}
 		{
-			dependencies: ["75134A35054D0558"]
-			dependency_requirement: "one_completed"
-			hide_text_until_complete: false
-			id: "702296C6CCF42DD9"
-			tasks: [{
-				id: "2D1C2B9FC4B4F591"
-				item: {
-					Count: 1
-					id: "mutantmonsters:hulk_hammer"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -10.0d
-			y: 4.5d
-		}
-		{
-			dependencies: ["3DD4FF17D834769B"]
-			dependency_requirement: "one_completed"
-			id: "22B9DCB17F171DA4"
-			tasks: [{
-				id: "2F9E0EBCA750A5ED"
-				item: {
-					Count: 1
-					id: "mutantmonsters:mutant_skeleton_skull"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -11.0d
-			y: 4.5d
-		}
-		{
-			dependencies: ["4C0AE1E218FC5D45"]
-			dependency_requirement: "one_completed"
-			description: ["打碎苦力怕的蛋有概率获得"]
-			id: "32631BDEC71B1D90"
-			tasks: [{
-				id: "31CFA8261FABC4DA"
-				item: {
-					Count: 1
-					id: "mutantmonsters:creeper_shard"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -12.0d
-			y: 4.5d
-		}
-		{
-			dependencies: ["4F1F51A6B59852F6"]
-			dependency_requirement: "one_completed"
-			description: [
-				"收集（右键）突变末影人死亡时周围的紫色实体，收集数量为四个以上时对他们丢一个末影之眼即可获得，若不满四个则每个可以为组合出来的末影之手提供1/4的耐久（即3个时，末影之手的耐久只有最大耐久的3/4）"
-				"建议尽早获取，这个物品具有超远距离传送（128格）的能力，无作弊之友"
-			]
-			id: "23FA528EC7B424CB"
-			tasks: [{
-				id: "6CA126200F699340"
-				item: {
-					Count: 1
-					id: "mutantmonsters:endersoul_hand"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -13.0d
-			y: 4.5d
-		}
-		{
 			dependencies: ["6B96AB2856C49FF9"]
 			description: ["制作枪械合成台来进一步制作厉害的枪械"]
 			id: "5978CF0D416A161C"
@@ -1539,7 +1334,7 @@
 			y: -3.5d
 		}
 		{
-			dependencies: ["25D0930094D2962A"]
+			dependencies: ["1B03D9F64F2B8A47"]
 			dependency_requirement: "one_completed"
 			description: ["遗物模组额外添加了&6多个可供成长的饰品&f，这些遗物可以再&6废弃矿井、沙漠神殿、村庄&f或&6其他遗迹&f中找到。右键把他们放在研究台上，&a长按shfit&f即可打开遗物属性界面"]
 			id: "6273A976CC8041EF"
@@ -1715,45 +1510,6 @@
 		}
 		{
 			dependencies: ["1B03D9F64F2B8A47"]
-			description: ["&6ゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴ"]
-			icon: "terramity:ancient_stone_mask"
-			id: "25D0930094D2962A"
-			rewards: [{
-				id: "78B7DF8CB4DBB4CA"
-				item: "terramity:ancient_stone_mask"
-				type: "item"
-			}]
-			tasks: [
-				{
-					id: "5EE0BFF13FD5F7CF"
-					item: {
-						Count: 1
-						id: "aquaculture:iron_fillet_knife"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "06640897B145EE49"
-					item: "minecraft:cobblestone"
-					type: "item"
-				}
-				{
-					icon: "graveyard:vial_of_blood"
-					id: "33F5091D2D118BC2"
-					stat: "minecraft:damage_dealt"
-					type: "stat"
-					value: 1
-				}
-			]
-			title: "成为jo级生物！！！！"
-			x: -3.5d
-			y: 2.0d
-		}
-		{
-			dependencies: ["1B03D9F64F2B8A47"]
 			description: ["这颗珍珠仿佛在指引你向地狱而去"]
 			icon: "enigmaticlegacy:enchanter_pearl"
 			id: "76CF3B4DF1B68DEF"
@@ -1874,11 +1630,6 @@
 					}
 					type: "item"
 				}
-				{
-					id: "511190C62559EDA7"
-					item: "potionring:ring_of_haste"
-					type: "item"
-				}
 			]
 			tasks: [{
 				entity: "galosphere:berserker"
@@ -1889,23 +1640,6 @@
 				value: 1L
 			}]
 			x: -7.0d
-			y: 5.0d
-		}
-		{
-			dependencies: ["05EA1A67C99A9305"]
-			description: ["与基诺拉交好后即可获得的物品"]
-			id: "146E0FB48AF54FF6"
-			rewards: [{
-				id: "242AFD0F593283E6"
-				item: "bountifulbaubles:curious_amulet"
-				type: "item"
-			}]
-			tasks: [{
-				id: "2E8483554ED863C1"
-				item: "mokels_boss_mantyd:plantation_rune"
-				type: "item"
-			}]
-			x: -5.0d
 			y: 5.0d
 		}
 		{
