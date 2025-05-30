@@ -5,18 +5,18 @@
                     Text="" />    
         <TextBlock TextWrapping="Wrap" Margin="50,0,0,4"
                     Text="" />  
-        <TextBlock TextWrapping="Wrap" Margin="50,0,0,4" FontSize="15" Foreground="#FF0000" HorizontalAlignment="Center"
-                    Text="如进游戏卡加载界面请下拉点击功能列表里面的开关动态加载界面并且输入N关闭动态加载界面" />                     
+        <TextBlock TextWrapping="Wrap" Margin="50,0,0,4" FontSize="21" Foreground="#FF0000" HorizontalAlignment="Center"
+                    Text="低配版默认关闭动态主界面背景" />                     
         <TextBlock TextWrapping="Wrap" Margin="60,0,0,4" FontSize="18" Foreground="#FF0000" HorizontalAlignment="Center"
-                    Text="关闭动态加载后还进不去请使用pcl自带的内存清理后再次进入游戏" />       
+                    Text="关闭动态主界面背景后还进不去请使用pcl自带的内存清理后再次进入游戏" />       
         <TextBlock TextWrapping="Wrap" Margin="50,0,0,4"
                     Text="" />  
         <TextBlock TextWrapping="Wrap" Margin="50,0,0,4"
                     Text="" />  
         <TextBlock TextWrapping="Wrap" Margin="50,0,0,4"
-                    Text="天空中多了熟悉的光环，怎么回事呢" />                     <!-- 内容直接复制到里面就行了，它会自动换行的，不怕突然超出 -->
+                    Text="下个版本将会修改精英怪的数值，使用新的货币模组体系，并且添加新的枪包（刀包），初始任务的铁剑将修改为该物品" />                     <!-- 内容直接复制到里面就行了，它会自动换行的，不怕突然超出 -->
         <TextBlock TextWrapping="Wrap" Margin="500,0,0,4"
-                    Text="发布时间2025年5月5日" />           <!-- 这改一下时间就得了 -->
+                    Text="发布时间2025年5月29日" />           <!-- 这改一下时间就得了 -->
     </StackPanel>
 </local:MyCard>
 
@@ -26,7 +26,7 @@
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" FontSize="21"
                     Text="在游戏中可能会出现问题如下:" />          <!-- 这个没必要改变 -->
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="fancymenu在启动游戏的时候会有显示bug，调整窗口大小或者按下一个按钮后返回即可恢复" />          <!-- 有什么内容添加上去就行，通顺就可以了 -->
+                    Text="目前动态加载界面一闪而过后变成mc默认加载界面，为正常现象，目前无法修复。" />          <!-- 有什么内容添加上去就行，通顺就可以了 -->
     </StackPanel>
 </local:MyCard>
 
@@ -54,27 +54,19 @@
     <StackPanel Margin="23,50,23,50">
          <local:MyImage Height="200" HorizontalAlignment="Center" Source="https://s21.ax1x.com/2025/05/03/pEbRcLQ.png" />      <!-- 这个没必要改变 -->
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" FontSize="21"
-                    Text="1.1.1：" />                     <!-- 内容直接复制到里面就行了，它会自动换行的，不怕突然超出，记得加版本在前 -->
+                    Text="Beta 1.0：" />                     <!-- 内容直接复制到里面就行了，它会自动换行的，不怕突然超出，记得加版本在前 -->
         <TextBlock TextWrapping="Wrap" Margin="50,0,0,4"
-                    Text="1.核心模组更新，优化建筑生成方式，添加新的超大箱子" />
+                    Text="1.枪包更新" />
         <TextBlock TextWrapping="Wrap" Margin="50,0,0,4"
-                    Text="2.枪包更新" />
+                    Text="2.其他模组更新" />
         <TextBlock TextWrapping="Wrap" Margin="50,0,0,4"
-                    Text="3.任务更新" />
+                    Text="3.核心模组更新（现在动态加载界面不会显示了）" />
         <TextBlock TextWrapping="Wrap" Margin="50,0,0,4"
-                    Text="4.其他模组更新" />
+                    Text="4.更改legendarytooltips模组配置来修复无尽箱子的无字天书" />
         <TextBlock TextWrapping="Wrap" Margin="50,0,0,4"
-                    Text="5.PCL配置文件更新" />
-        <TextBlock TextWrapping="Wrap" Margin="50,0,0,4"
-                    Text="6.删除部分无用模组" />
-        <TextBlock TextWrapping="Wrap" Margin="50,0,0,4"
-                    Text="7.更改冠军配置和难度" />
-        <TextBlock TextWrapping="Wrap" Margin="50,0,0,4"
-                    Text="8.调整一键背包整理整理mod按钮位置" />
-        <TextBlock TextWrapping="Wrap" Margin="50,0,0,4"
-                    Text="9.降低一个模组版本防止崩溃" />
+                    Text="5.同步任务ban物品体系" />
         <TextBlock TextWrapping="Wrap" Margin="500,0,0,4"
-                    Text="发布时间2025年5月17日" />           <!-- 这改一下时间就得了 -->
+                    Text="发布时间2025年5月28日" />           <!-- 这改一下时间就得了 -->
     </StackPanel>
 </local:MyCard>
 
