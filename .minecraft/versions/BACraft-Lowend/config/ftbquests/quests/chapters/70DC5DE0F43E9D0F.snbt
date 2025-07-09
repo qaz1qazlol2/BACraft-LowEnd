@@ -228,8 +228,8 @@
 			id: "39A1968951F82430"
 			rewards: [{
 				count: 2
-				id: "3E67945E34E93A8C"
-				item: "blue_archivescraft:super_book"
+				id: "142A903219D7B577"
+				item: "blue_archivescraft:mysterious_book"
 				type: "item"
 			}]
 			tasks: [{
@@ -319,7 +319,7 @@
 				"2AF5C069463F5652"
 				"51AB435F7C900773"
 			]
-			description: [""]
+			description: ["现在你可以摆脱七咒之戒了，不过...似乎还有更好的选择&e（神圣之石的前置）"]
 			id: "451F0B85AA6CD38F"
 			tasks: [{
 				id: "362EF93235C1193F"
@@ -506,8 +506,8 @@
 			dependencies: ["50DD425A28DEBC63"]
 			id: "3290DC7A75EFC469"
 			rewards: [{
-				id: "1CA7E5EBD5ED157A"
-				item: "blue_archivescraft:super_book"
+				id: "7374C7C67239E8DB"
+				item: "blue_archivescraft:mysterious_book"
 				type: "item"
 			}]
 			tasks: [{
@@ -713,6 +713,7 @@
 			y: -1.5d
 		}
 		{
+			description: ["能将装备上的附魔全部薅下来（包括诅咒）"]
 			id: "4AE1E897581D0CBF"
 			rewards: [{
 				id: "4652430BAACC95D2"
@@ -834,6 +835,7 @@
 				"55E698E7FBF8ED4E"
 			]
 			id: "4B2BBB57B9B9B43B"
+			subtitle: "天空不再是极限"
 			tasks: [{
 				id: "64C44B4AE8F3F6A0"
 				item: {
@@ -899,6 +901,18 @@
 			title: "“无限骨粉”"
 			x: -3.5d
 			y: 1.0d
+		}
+		{
+			dependencies: ["451F0B85AA6CD38F"]
+			description: ["愿你在远离诅咒的日子里，尽情享受生活"]
+			id: "427461A18303FF2A"
+			tasks: [{
+				id: "5322EACE9091F4D2"
+				item: "enigmaticaddons:bless_stone"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 5.5d
 		}
 	]
 	title: "&c七之古则 &9七之祝福"
