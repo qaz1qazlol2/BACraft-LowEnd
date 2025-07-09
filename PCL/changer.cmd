@@ -1,9 +1,9 @@
 @echo off
-echo ±¾½Å±¾¸ºÔğÇĞ»»ÊÇ·ñÊ¹ÓÃ¶¯Ì¬¼ÓÔØ½çÃæ
-echo Èç¹ûÄãÓöµ½ÁË¿¨ÔÚ¼ÓÔØ½çÃæµÄÇé¿öÇëÊäÈëN¹Ø±Õ¶¯Ì¬¼ÓÔØ½çÃæ
-echo ÊäÈëYÆôÓÃ¶¯Ì¬¼ÓÔØ½çÃæ
-echo ÊäÈëN¹Ø±Õ¶¯Ì¬¼ÓÔØ½çÃæ
-echo ÊäÈëCÍË³ö½Å±¾
+echo æœ¬è„šæœ¬è´Ÿè´£åˆ‡æ¢æ˜¯å¦ä½¿ç”¨åŠ¨æ€åŠ è½½ç•Œé¢
+echo å¦‚æœä½ é‡åˆ°äº†å¡åœ¨åŠ è½½ç•Œé¢çš„æƒ…å†µè¯·è¾“å…¥Nå…³é—­åŠ¨æ€åŠ è½½ç•Œé¢
+echo è¾“å…¥Yå¯ç”¨åŠ¨æ€åŠ è½½ç•Œé¢
+echo è¾“å…¥Nå…³é—­åŠ¨æ€åŠ è½½ç•Œé¢
+echo è¾“å…¥Cé€€å‡ºè„šæœ¬
 choice /c ync /n
 if errorlevel 3 goto quit
 if errorlevel 2 goto disable
@@ -14,15 +14,15 @@ if errorlevel 1 goto enable
 
 :enable
 
-echo true> ../.minecraft/blue_start_video.txt
-echo ÆôÓÃ³É¹¦
+echo true> "../.minecraft/versions/BACraft-Lowend/blue_start_video.txt"
+echo å¯ç”¨æˆåŠŸ
 pause
 exit
 
 :disable
 
-echo false> ../.minecraft/blue_start_video.txt
-echo ½ûÓÃ³É¹¦
+echo false> "../.minecraft/versions/BACraft-Lowend/blue_start_video.txt"
+echo ç¦ç”¨æˆåŠŸ
 pause
 exit
 

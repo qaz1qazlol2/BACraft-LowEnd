@@ -1,3 +1,6 @@
 [submodule ".minecraft/mods"]
 	path = .minecraft/mods
 	url = https://huggingface.co/datasets/qaz1qazlol/mods_lowend
+[submodule ".minecraft/versions/BACraft-Lowend/mods"]
+	path = .minecraft/versions/BACraft-Lowend/mods
+	url = https://huggingface.co/datasets/qaz1qazlol/mods_lowend
