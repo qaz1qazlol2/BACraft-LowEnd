@@ -1,10 +1,10 @@
 {
   "schemaVersion": 9,
   "currentVersion": "1.0",
-  "modpackName": "BACraft",
-  "modpackAuthor": "sfhuewui & qaz1qazlol and 小水滴的源头",
+  "modpackName": "BACraft-Lowend",
+  "modpackAuthor": "sfhuewui & qaz1qazlol & 小水滴的源头 and 星草大帝",
   "modpackReleaseType": "stable",
-  "updateCheckerId": "https://versions.allforhina.com/BACraft/",
+  "updateCheckerId": "https://versions.allforhina.com/BACraft/lowend",
   "advanced": {
     "bccEnabled": false,
     "expandButton": false,
