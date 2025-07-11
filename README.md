@@ -1,6 +1,6 @@
 # BACraft-Lowend
-# 想体验最新测试版本请安装git后输入 
-# git clone --recursive https://bgithub.xyz/qaz1qazlol2/BlueArchivesCraftModpackRemake-LowEnd.git
+# 国内用户想体验最新测试版本请安装git后输入 
+# git clone --recursive https://hgithub.xyz/qaz1qazlol2/BACraft-LowEnd.git
 # Win10及以上（非精简版）使用 winget install Git.Git 来安装git
 整合包主体部分
 
